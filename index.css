@@ -54,7 +54,7 @@ button{
 .container{
     margin-top: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
 }
 a button{
@@ -152,9 +152,16 @@ h1{
 .card{
     background-color: transparent !important;
     color: white;
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+    /* overflow: scroll; */
 }
 .card-text{
     font-size: large;
+    /* display: flex;
+    flex-wrap: wrap; */
+    
 }
 .card-title{
     text-align: center;
@@ -195,4 +202,11 @@ a img{
     outline: none;
     cursor: pointer;
 }
-
+@media (max-width: 800px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        height: 599px;
+    }
+}
