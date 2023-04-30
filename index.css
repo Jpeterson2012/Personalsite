@@ -204,22 +204,28 @@ a img{
     cursor: pointer;
 }
 @media (max-width: 800px){
+    
     .container{
         display: flex;
         flex-direction: column;
         
         align-content: start;
         overflow-y: scroll;
-        height: 600px;
+        height: 100vh;
         max-width: 100%;
-        margin-left: auto;
+        padding-top: 70px;
+        padding-bottom: 100px;
+        
+        
     }
     .navbar{
+        
         width: 100%;
         
     }
     .card-text{
         width: 300px;
+        
     }
-    .
+    
 }
