@@ -221,6 +221,7 @@ a img{
     .navbar{
         display: flex;
         flex-wrap: wrap;
+        width: 100%;
         
     }
     .card-text{
