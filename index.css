@@ -166,6 +166,12 @@ h1{
 
 .card-title{
     text-align: center;
+    color: burlywood;
+    font-weight: 900px;
+}
+.card-body h6{
+    color: burlywood;
+    font-weight: 900px;
 }
 a img{
     background-color: white;
