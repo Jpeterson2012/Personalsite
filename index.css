@@ -220,11 +220,14 @@ a img{
     }
     .navbar{
         display: flex;
-        justify-content: space-between;
+        
         flex-wrap: wrap;
         width: 100%;
-        
+        gap: 10px;
     }
+    
+        
+    
     .card-text{
         width: 300px;
         
