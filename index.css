@@ -246,11 +246,16 @@ a img{
         overflow-y: scroll;
     }
     .navbar{
-        
+        display: flex;
+        justify-content: center;
+        gap: 20px;
         width: 100%;
     }
     .side-bar{
         height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
         overflow-y: scroll;
     }
 }
