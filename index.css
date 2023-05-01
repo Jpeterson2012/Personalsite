@@ -219,12 +219,17 @@ a img{
         
     }
     .navbar{
-        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
         
     }
     .card-text{
         width: 300px;
         
     }
-    
+    .card-body .card-title{
+        text-align: left;
+    }
 }
