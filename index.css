@@ -236,3 +236,16 @@ a img{
         text-align: left;
     }
 }
+@media (max-height: 600px){
+    .container{
+        overflow-y: scroll;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .side-bar{
+        overflow-y: scroll;
+    }
+}
+
+
