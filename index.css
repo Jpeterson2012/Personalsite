@@ -251,6 +251,7 @@ a img{
     .container{
         height: 100vh;
         overflow-y: scroll;
+        margin-top: 100px;
     }
     .navbar{
         display: flex;
