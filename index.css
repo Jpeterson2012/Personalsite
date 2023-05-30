@@ -212,6 +212,7 @@ a img{
 }
 @media (max-width: 800px){
     
+    
     .container{
         display: flex;
         flex-direction: column;
@@ -219,8 +220,8 @@ a img{
         align-content: start;
         overflow-y: scroll;
         height: 100%;
-        max-width: 100%;
-        padding-top: 120px;
+        width: 100%;
+        /* padding-top: 120px; */
         padding-bottom: 130px;
         
         
@@ -232,9 +233,16 @@ a img{
         width: 100%;
         gap: 10px;
     }
-    
+    .content{
+        margin-top: 500px;
+    }
     .card{
         text-align: left;
+        max-width: 100%;
+        
+    }
+    h4{
+        font-size:smaller;
     }
     
     .card-text{
