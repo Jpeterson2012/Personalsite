@@ -232,10 +232,13 @@ a img{
         gap: 10px;
     }
     
-        
+    .card{
+        margin: 0;
+        padding: 0;
+    }
     
     .card-text{
-        width: 300px;
+        width: 270px;
         
     }
     .card-body .card-title{
