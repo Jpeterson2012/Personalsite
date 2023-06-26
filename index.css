@@ -82,6 +82,9 @@ h1{
     width: 35px;
     margin: 10px auto;
 }
+.docker img{
+    width: 45px;
+}
 .social-links{
     width: 70px;
     text-align: center;
