@@ -167,16 +167,23 @@ h1{
     flex-wrap: wrap; */
     
 }
+.top, .card h6{
+    color: burlywood;
+    font-weight: 900;
+}
+.card h5{
+    font-weight: 800;
+}
 
 .card-title{
     text-align: center;
     color: burlywood;
     font-weight: 900px;
 }
-.card-body h6{
+/* .card-body h6{
     color: burlywood;
     font-weight: 900px;
-}
+} */
 a img{
     background-color: white;
 }
@@ -237,7 +244,7 @@ a img{
         gap: 10px;
     }
     .content{
-        margin-top: 600px;
+        margin-top: 500px;
     }
     .card{
         text-align: left;
@@ -249,7 +256,7 @@ a img{
     }
     
     .card-text{
-        width: 200px;
+        width: 300px;
         
     }
     .card-body .card-title{
