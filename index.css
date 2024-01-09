@@ -171,7 +171,7 @@ h1{
     color: burlywood;
     font-weight: 900;
 }
-.card h5{
+.card .second{
     font-weight: 800;
 }
 
@@ -180,24 +180,15 @@ h1{
     color: burlywood;
     font-weight: 900px;
 }
-/* .card-body h6{
-    color: burlywood;
-    font-weight: 900px;
-} */
+
 a img{
     background-color: white;
 }
-/* .socials{
-    display: flex;
-    justify-content: space-between;
-} */
+
 .modal-content{
     background-color: burlywood !important;
 }
-/* modal-body{
-    display: flex;
-    flex-direction: column;
-} */
+
 .logolist{
     display: flex; 
      justify-content: space-around;
@@ -232,7 +223,7 @@ a img{
         height: 100%;
         width: 100%;
         /* padding-top: 120px; */
-        padding-bottom: 130px;
+        padding-bottom: 150px;
         
         
     }
@@ -244,12 +235,12 @@ a img{
         gap: 10px;
     }
     .content{
-        margin-top: 400px;
+        margin-top: 350px;
     }
     .card{
         text-align: left;
         max-width: 100%;
-        
+
     }
     h4{
         font-size:smaller;
@@ -257,7 +248,6 @@ a img{
     
     .card-text{
         width: 300px;
-        
     }
     .card-body .card-title{
         text-align: left;
