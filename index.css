@@ -51,6 +51,9 @@ button{
     margin-top: 170px;
     
 }
+small{
+    font-family: cursive;
+}
 .container{
     margin-top: 10px;
     display: flex;
