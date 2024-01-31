@@ -190,6 +190,9 @@ a img{
     width: 40px;
     height: auto;
 }
+.modal-body .logo2{
+    height: 40px
+}
 .modal-body .fullstack{
     max-width: 100%;
 }
