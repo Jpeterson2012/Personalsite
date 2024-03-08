@@ -126,20 +126,22 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <h3>Web Scraper Analysis<br> 
+                    <h3>S&P500 Analysis<br> 
                         <a href="https://github.com/Jpeterson2012/ScrapeAnalysis" target="_blank" rel="noopener noreferrer"><button>Github</button></a>
                     </h3>
-                    <img class ="fullstack" src="projectpics/Screenshot (8).png">
+                    <img class ="fullstack" src="projectpics/Screenshot (11).png">
                     <div class="logolist">
                         <img class="logo" src="languages/python.png">
+                        <img class="logo2" src="languages/mysqllogo.png">
                         <img class="logo2" src="languages/pandas.png">
                         <img class="logo2" src="languages/numpy.png">
                         <img class="logo2" src="languages/beautifulsoup.png">
                     </div>
-                    <p>	Built a bookshop ecommerce website where you can browse, filter, and buy different books.<br>
-                        Generated application that scrapes financial data from Yahoo Finance using the Beautiful Soup library.<br>
-                        Requests a multitude of ticker symbols from the user; then injects those symbols into the website URL.<br>
-                        Converts data types and cleans the data using pandas, while simultaneously producing a combined data frame on the heading of one's choosing along with a data frame for each individual symbol.<br>
+                    <p>	
+                        Generated application that scrapes the current S&P500 symbols from Wikipedia using the Beautiful Soup library.<br>
+                        Stores these symbols inside a MYSQL table.
+                        Feeds a subset of the symbols of one's choosing into the Yahoo Finance API.<br>
+                        Produces a single data frame for each individual symbol.<br>
                         Performs some analysis with NumPy on the data such as producing the daily returns, standard deviation of daily returns, average daily returns, and Sharpe ratio.
                         <br>
                     </p>
