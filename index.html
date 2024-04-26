@@ -26,7 +26,7 @@
                 <span><button type="button" data-toggle="modal" data-target="#exampleModalLong">
                     View Projects
                 </button>
-                <a href="Future Resume.pdf" target="_blank" rel="noopener noreferrer"><button>View Resume</button></a></span>
+                <a href="Future Resume3.pdf" target="_blank" rel="noopener noreferrer"><button>View Resume</button></a></span>
                 <br>
                 <span class="socials">
                 <a href="https://www.linkedin.com/in/jesse-peterson-959b2b224/" target="_blank" rel="noopener noreferrer"><img src="linkedin.png"></a>
@@ -126,10 +126,10 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <h3>S&P500 Analysis<br> 
+                    <h3>Simple Market Trading Simulator<br> 
                         <a href="https://github.com/Jpeterson2012/ScrapeAnalysis" target="_blank" rel="noopener noreferrer"><button>Github</button></a>
                     </h3>
-                    <img class ="fullstack" src="projectpics/Screenshot (11).png">
+                    <img class ="fullstack" src="projectpics/Screenshot (12).png">
                     <div class="logolist">
                         <img class="logo" src="languages/python.png">
                         <img class="logo2" src="languages/mysqllogo.png">
@@ -139,11 +139,9 @@
                     </div>
                     <p>	
                         Generated application that scrapes the current S&P500 symbols from Wikipedia using the Beautiful Soup library.<br>
-                        Stores these symbols inside a MYSQL table.
-                        Feeds a subset of the symbols of one's choosing into the Yahoo Finance API.<br>
-                        Produces a single data frame for each individual symbol.<br>
-                        Performs some analysis with NumPy on the data such as producing the daily returns, standard deviation of daily returns, average daily returns, and Sharpe ratio.
-                        <br>
+                        Stores these symbols inside a MYSQL table along with a table of historical data for each ticker, provided by the Yahoo Finance API.<br>
+                        Uses a machine learning model consisting of a bag learner and random trees to produce buy/sell signals.<br>
+                        Conducts trades according to model output and tracks earnings.<br>
                     </p>
                     <br>
 
