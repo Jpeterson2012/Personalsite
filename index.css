@@ -301,7 +301,7 @@ a img{
             transform: translateY(0%)
         } */
         to{
-          transform: translateY(-56%);
+          transform: translateY(-50vh);
         }
       }
     
