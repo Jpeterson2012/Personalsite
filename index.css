@@ -267,7 +267,7 @@ a img{
         
         align-content: start;
         overflow-y: scroll;
-        height: 100%;
+        height: 90%;
         width: 100%;
         /* padding-top: 120px; */
         padding-bottom: 150px;
@@ -296,14 +296,14 @@ a img{
     .card-text{
         width: 300px;
     }
-    @keyframes scroll {
+    /* @keyframes scroll {
         /* from{
             transform: translateY(0%)
         } */
         to{
           transform: translateY(-50vh);
         }
-      }
+      } */
     
 }
 @media (max-height: 500px){
