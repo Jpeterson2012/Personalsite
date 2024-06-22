@@ -131,7 +131,7 @@ h1{
         transform: translateY(0%)
     } */
     to{
-      transform: translateY(-80%);
+      transform: translateY(-81.5%);
     }
   }
 
@@ -299,14 +299,14 @@ a img{
     .social-links{
         max-height: 100%;
     }
-    @keyframes scroll {
+    /* @keyframes scroll { */
         /* from{
             transform: translateY(0%)
         } */
-        to{
+        /* to{
           transform: translateY(-81.5%);
-        }
-      }
+        } */
+      /* } */
 
     
 }
