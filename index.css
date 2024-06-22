@@ -296,6 +296,14 @@ a img{
     .card-text{
         width: 300px;
     }
+    @keyframes scroll {
+        /* from{
+            transform: translateY(0%)
+        } */
+        to{
+          transform: translateY(-60%);
+        }
+      }
     
 }
 @media (max-height: 500px){
