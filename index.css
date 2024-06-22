@@ -267,9 +267,7 @@ a img{
         
         align-content: start;
         overflow-y: scroll;
-        height: 100vh;
-        min-height: 100vh;
-        max-height: 100vh;
+        height: 100%;
         width: 100%;
         /* padding-top: 120px; */
         padding-bottom: 150px;
@@ -298,14 +296,18 @@ a img{
     .card-text{
         width: 300px;
     }
+    .social-links{
+        max-height: 100%;
+    }
     /* @keyframes scroll {
         /* from{
             transform: translateY(0%)
         } */
-        to{
+        /* to{
           transform: translateY(-50vh);
-        }
+        } */
       } */
+
     
 }
 @media (max-height: 500px){
