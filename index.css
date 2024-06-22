@@ -297,12 +297,12 @@ a img{
         width: 300px;
     }
     .social-links{
-        max-height: 100%;
+        /* max-height: 100%; */
     }
     @keyframes scroll {
-        from{
-            transform: translateY(0%)
-        }
+        /* from{
+            transform: translateY(0%) */
+        /* } */
         to{
           transform: translateY(-50%);
         }
