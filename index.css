@@ -321,9 +321,8 @@ a img{
         height: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-        gap: 10px;
+        /* gap: 10px; */
         overflow-y: scroll;
     }
     .menu{
