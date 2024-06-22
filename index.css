@@ -123,7 +123,7 @@ h1{
 }
 .social-links[data-animated="true"] .temp{
     width: max-content;
-  animation: scroll var(--_animation-duration, 40s)
+  animation: scroll var(--_animation-duration, 15s)
   var(--_animation-duration, reverse) linear infinite;
 }
 @keyframes scroll {
@@ -282,7 +282,7 @@ a img{
         gap: 10px;
     }
     .content{
-        margin-top: 75px;
+        margin-top: 55px;
     }
     .card{
         text-align: left;
