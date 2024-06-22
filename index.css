@@ -299,14 +299,14 @@ a img{
     .social-links{
         max-height: 100%;
     }
-    /* @keyframes scroll {
+    @keyframes scroll {
         /* from{
             transform: translateY(0%)
         } */
-        /* to{
-          transform: translateY(-50vh);
-        } */
-      } */
+        to{
+          transform: translateY(-70%);
+        }
+      }
 
     
 }
