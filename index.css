@@ -125,7 +125,7 @@ h1{
 
     width: max-content;
     animation: scroll 30s reverse linear infinite;
-    -webkit-animation: 30s reverse linear infinite;;
+    -webkit-animation: scroll 30s reverse linear infinite;;
     animation-delay: 1.5s;
     -webkit-animation-delay: 1.5s;
 
