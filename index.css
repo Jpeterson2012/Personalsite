@@ -302,17 +302,10 @@ a img{
     .card-text{
         width: 300px;
     }
-    .social-links{
+    /* .social-links{ */
         /* max-height: 100%; */
-    }
-    @keyframes scroll {
-        /* from{
-            transform: translateY(0%)
-        } */
-        /* to{
-          transform: translateY(-81.5%);
-        } */
-      }
+    /* } */
+    
       
 
     
