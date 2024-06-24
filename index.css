@@ -107,7 +107,7 @@ h1{
     transform: translateY(-50%);
     color: white;
     /* animation: fadeIn 0.5s; */
-    animation: fadeIn 2s;
+    animation: fadeIn 1.5s;
     overflow: hidden;
     -webikit-mask: linear-gradient(180deg, transparent, white 20% 80%, transparent);
     mask: linear-gradient(180deg, transparent, white 20% 80%, transparent)
@@ -138,7 +138,7 @@ h1{
         transform: translateY(0%)
     } */
     to{
-      transform: translateY(-50%);
+      transform: translateY(-81.5%);
     }
   }
 
