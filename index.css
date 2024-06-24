@@ -82,7 +82,7 @@ h1{
     position: absolute;
     right: 0;
     top: 0;
-    animation: fadeIn 2s;
+    /* animation: fadeIn 2s; */
 }
 .menu{
     display: block;
@@ -107,7 +107,7 @@ h1{
     transform: translateY(-50%);
     color: white;
     /* animation: fadeIn 0.5s; */
-    /* animation: fadeIn 2s; */
+    animation: fadeIn 2s;
     overflow: hidden;
     -webikit-mask: linear-gradient(180deg, transparent, white 20% 80%, transparent);
     mask: linear-gradient(180deg, transparent, white 20% 80%, transparent)
@@ -125,6 +125,7 @@ h1{
 
     width: max-content;
     animation: scroll 30s reverse linear infinite;
+    animation-delay: 1.5s;
 
 }
 /* .social-links[data-animated="true"] .temp{
@@ -133,11 +134,11 @@ h1{
   var(--_animation-duration, reverse) linear infinite;
 } */
 @keyframes scroll {
-    from{
+    /* from{
         transform: translateY(0%)
-    }
+    } */
     to{
-      transform: translateY(-81.5%);
+      transform: translateY(-50%);
     }
   }
 
