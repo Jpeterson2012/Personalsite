@@ -108,6 +108,7 @@ h1{
     color: white;
     /* animation: fadeIn 0.5s; */
     animation: fadeIn 1.5s;
+    -webkit-animation: fadeIn 1.5s;
     overflow: hidden;
     -webikit-mask: linear-gradient(180deg, transparent, white 20% 80%, transparent);
     mask: linear-gradient(180deg, transparent, white 20% 80%, transparent)
@@ -120,10 +121,10 @@ h1{
 .temp{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    height: max-content;
+    /* flex-wrap: wrap; */
+    /* height: max-content; */
 
-    width: max-content;
+    /* width: max-content; */
     /* animation: scroll 30s reverse linear infinite;
     -webkit-animation: scroll 30s reverse linear infinite; */
     /* animation-delay: 1.5s;
