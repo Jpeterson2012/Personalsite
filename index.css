@@ -146,12 +146,12 @@ h1{
 @-webkit-keyframes scroll {
     
     from{
-      transform: translateY(0%);
+      -webkit-transform: translateY(0%);
     }
     to{
-        transform: translateY(-81.5%);
+        -webkit-transform: translateY(-81.5%);
     }
-}
+}   
 @-moz-keyframes scroll {
     from{
         transform: translateY(0%)
@@ -325,31 +325,7 @@ a img{
     /* .social-links{ */
         /* max-height: 100%; */
     /* } */
-    @keyframes scroll {
-        from{
-            transform: translateY(0%)
-        } 
-        to{
-          transform: translateY(-81.5%);
-        }
-      }
-    @-webkit-keyframes scroll {
-        
-        from{
-          transform: translateY(0%);
-        }
-        to{
-            transform: translateY(-81.5%);
-        }
-    }
-    @-moz-keyframes scroll {
-        from{
-            transform: translateY(0%)
-        } 
-        to{
-          transform: translateY(-50%);
-        }
-    }
+   
       
 
     
