@@ -141,7 +141,7 @@ h1{
       transform: translateY(-50%);
     }
   }
-@-webkit-keyframes{
+@-webkit-keyframes scroll {
     from{
         transform: translateY(0%)
     } 
@@ -149,7 +149,7 @@ h1{
       transform: translateY(-50%);
     }
 }
-@-moz-keyframes{
+@-moz-keyframes scroll {
     from{
         transform: translateY(0%)
     } 
