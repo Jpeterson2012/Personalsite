@@ -145,8 +145,8 @@ h1{
   }
 @-webkit-keyframes scroll {
     
-    to{
-      transform: translateY(-81.5%);
+    from{
+      transform: translateY(0%);
     }
 }
 @-moz-keyframes scroll {
