@@ -12,6 +12,15 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>Jesse Peterson Portfolio</title>
+    <script>
+        window.addEventListener("DOMContentLoaded", (event) => {
+            let temp = document.getElementById("temp")
+            temp.style.animation = "scroll 30s reverse linear infinite"
+            temp.style.webkitAnimation = "scroll 30s reverse linear infinite"
+            temp.style.animationDelay = "3s"
+            temp.style.webkitAnimationDelay = "3s"
+        })
+    </script>
 </head>
 
 <body>
@@ -68,7 +77,7 @@
         <div class="side-bar">
             <img hidden src="menu.png" class="menu">
             <div class="social-links" data-animated="true">
-                <div class="temp">
+                <div class="temp" id="temp">
                 <img src="languages/python.png">
                 <img src="languages/pandas2.png" style="height: 38px; width: auto;">
                 <!-- <img src="languages/numpy.svg" style="margin: 0px;"> -->

@@ -124,10 +124,10 @@ h1{
     height: max-content;
 
     width: max-content;
-    animation: scroll 30s reverse linear infinite;
-    -webkit-animation: scroll 30s reverse linear infinite;;
-    animation-delay: 1.5s;
-    -webkit-animation-delay: 1.5s;
+    /* animation: scroll 30s reverse linear infinite;
+    -webkit-animation: scroll 30s reverse linear infinite; */
+    /* animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s; */
 
 }
 /* .social-links[data-animated="true"] .temp{
@@ -140,7 +140,7 @@ h1{
         transform: translateY(0%)
     } 
     to{
-      transform: translateY(-81.5%);
+      transform: translateY(-50%);
     }
   }
 @-webkit-keyframes scroll {
@@ -149,7 +149,7 @@ h1{
       -webkit-transform: translateY(0%);
     }
     to{
-        -webkit-transform: translateY(-81.5%);
+        -webkit-transform: translateY(-50%);
     }
 }   
 @-moz-keyframes scroll {
