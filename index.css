@@ -145,10 +145,10 @@ h1{
   }
 @-webkit-keyframes scroll {
     from{
-        transform: translateY(0%)
+        transform: translateY(-10%)
     } 
     to{
-      transform: translateY(-50%);
+      transform: translateY(-60%);
     }
 }
 @-moz-keyframes scroll {
