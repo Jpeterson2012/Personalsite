@@ -134,11 +134,11 @@ h1{
   var(--_animation-duration, reverse) linear infinite;
 } */
 @keyframes scroll {
-    /* from{
+    from{
         transform: translateY(0%)
-    } */
+    } 
     to{
-      transform: translateY(-81.5%);
+      transform: translateY(-50%);
     }
   }
 
