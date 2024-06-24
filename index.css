@@ -307,6 +307,10 @@ a img{
           transform: translateY(-81.5%);
         }
       }
+      .social-links[data-animated="true"] .temp{
+        
+        animation-delay: -2s;
+      }
 
     
 }
