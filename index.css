@@ -108,30 +108,36 @@ h1{
     color: white;
     /* animation: fadeIn 0.5s; */
     /* animation: fadeIn 2s; */
-}
-.social-links[data-animated="true"]{
     overflow: hidden;
     -webikit-mask: linear-gradient(180deg, transparent, white 20% 80%, transparent);
     mask: linear-gradient(180deg, transparent, white 20% 80%, transparent)
 }
+/* .social-links[data-animated="true"]{
+    overflow: hidden;
+    -webikit-mask: linear-gradient(180deg, transparent, white 20% 80%, transparent);
+    mask: linear-gradient(180deg, transparent, white 20% 80%, transparent)
+} */
 .temp{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     height: max-content;
 
+    width: max-content;
+    animation: scroll 30s reverse linear infinite;
+
 }
-.social-links[data-animated="true"] .temp{
+/* .social-links[data-animated="true"] .temp{
     width: max-content;
   animation: scroll var(--_animation-duration, 30s)
   var(--_animation-duration, reverse) linear infinite;
-}
+} */
 @keyframes scroll {
-    /* from{
+    from{
         transform: translateY(0%)
-    } */
+    }
     to{
-      transform: translateY(-81.5%);
+      transform: translateY(-50%);
     }
   }
 
@@ -303,14 +309,11 @@ a img{
         /* from{
             transform: translateY(0%)
         } */
-        to{
+        /* to{
           transform: translateY(-81.5%);
-        }
+        } */
       }
-      .social-links[data-animated="true"] .temp{
-        
-        animation-delay: -2s;
-      }
+      
 
     
 }
