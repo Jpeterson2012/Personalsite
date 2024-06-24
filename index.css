@@ -300,9 +300,9 @@ a img{
         /* max-height: 100%; */
     }
     @keyframes scroll {
-        from{
+        /* from{
             transform: translateY(0%)
-        }
+        } */
         to{
           transform: translateY(-81.5%);
         }
