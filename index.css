@@ -141,6 +141,22 @@ h1{
       transform: translateY(-50%);
     }
   }
+@-webkit-keyframes{
+    from{
+        transform: translateY(0%)
+    } 
+    to{
+      transform: translateY(-50%);
+    }
+}
+@-moz-keyframes{
+    from{
+        transform: translateY(0%)
+    } 
+    to{
+      transform: translateY(-50%);
+    }
+}
 
 .useful-links{
     width: 70px;
