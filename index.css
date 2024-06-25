@@ -115,15 +115,64 @@ h1{
     flex-direction: column;
     width: max-content; 
 }
-@keyframes scroll {
+/* @keyframes scroll {
     from{
         transform: translateY(68%)
     } 
     to{
       transform: translateY(-100%);
     }
-  }
-@-webkit-keyframes scroll {
+  } */
+
+@keyframes scroll{
+    from{
+        transform: translateY(-50%)
+    }
+    to{
+        transform: translateY(-100%);
+    }
+}
+@keyframes scroll2{
+    from{
+        transform: translateY(0%)
+    }
+    to{
+        transform: translateY(-50%);
+    }
+}
+@-webkit-keyframes scroll{
+    from{
+        -webkit-transform: translateY(-50%)
+    }
+    to{
+        -webkit-transform: translateY(-100%);
+    }
+}
+@-webkit-keyframes scroll2{
+    from{
+        -webkit-transform: translateY(0%)
+    }
+    to{
+        -webkit-transform: translateY(-50%);
+    }
+}
+@-moz-keyframes scroll{
+    from{
+       -moz-transform: translateY(-50%)
+    }
+    to{
+        -moz-transform: translateY(-100%);
+    }
+}
+@-moz-keyframes scroll2{
+    from{
+        -moz-transform: translateY(0%)
+    }
+    to{
+        -moz-transform: translateY(-50%);
+    }
+}
+/* @-webkit-keyframes scroll {
     
     from{
       -webkit-transform: translateY(68%);
@@ -139,7 +188,7 @@ h1{
     to{
       transform: translateY(-100%);
     }
-}
+} */
 
 .useful-links{
     width: 70px;
