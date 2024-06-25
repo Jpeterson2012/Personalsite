@@ -134,10 +134,10 @@ h1{
 }   
 @-moz-keyframes scroll {
     from{
-        transform: translateY(0%)
+        transform: translateY(70%)
     } 
     to{
-      transform: translateY(-50%);
+      transform: translateY(-100%);
     }
 }
 
@@ -305,6 +305,31 @@ a img{
     /* .social-links{ */
         /* max-height: 100%; */
     /* } */
+    @keyframes scroll {
+        from{
+            transform: translateY(80%)
+        } 
+        to{
+          transform: translateY(-100%);
+        }
+      }
+    @-webkit-keyframes scroll {
+        
+        from{
+          -webkit-transform: translateY(80%);
+        }
+        to{
+            -webkit-transform: translateY(-100%);
+        }
+    }   
+    @-moz-keyframes scroll {
+        from{
+            transform: translateY(80%)
+        } 
+        to{
+          transform: translateY(-100%);
+        }
+    }
    
       
 
