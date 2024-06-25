@@ -17,12 +17,10 @@
             let temp = document.getElementById("temp")
             setTimeout(()=>{
                 temp.removeAttribute("hidden")
-            },1000)
+            },1500)
             
-            temp.style.animation = "scroll 14s reverse linear infinite"
-            temp.style.webkitAnimation = "scroll 14s reverse linear infinite"
-            // temp.style.animationDelay = "3s"
-            // temp.style.webkitAnimationDelay = "3s"
+            temp.style.animation = "scroll 14s alternate-reverse linear infinite"
+            temp.style.webkitAnimation = "scroll 14s alternate-reverse linear infinite"
         })
     </script>
 </head>
@@ -79,7 +77,6 @@
 
 
         <div class="side-bar">
-            <img src="menu.png" class="menu">
             <div class="social-links">
                 <div hidden class="temp" id="temp">
                 <img src="languages/python.png">
