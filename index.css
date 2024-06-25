@@ -354,7 +354,7 @@ a img{
     /* .social-links{ */
         /* max-height: 100%; */
     /* } */
-    @keyframes scroll {
+    /* @keyframes scroll {
         from{
             transform: translateY(75%)
         } 
@@ -378,7 +378,7 @@ a img{
         to{
           transform: translateY(-100%);
         }
-    }
+    } */
    
       
 
