@@ -12,6 +12,7 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>Jesse Peterson Portfolio</title>
+    <!-- Scrolling side bar -->
     <script>
         window.addEventListener("DOMContentLoaded", (event) => {
             let temp = document.getElementById("temp")
@@ -43,10 +44,10 @@
             <div class="content">
                 <small>Welcome to my</small>
                 <h1>Portfolio</h1>
-                <span><button type="button" data-toggle="modal" data-target="#exampleModalLong">
+                <span><button class="mainButton" type="button" data-toggle="modal" data-target="#exampleModalLong">
                     View Projects
                 </button>
-                <a href="Future Resume3.pdf" target="_blank" rel="noopener noreferrer"><button>View Resume</button></a></span>
+                <a href="SWResume.pdf" target="_blank" rel="noopener noreferrer"><button class="mainButton">View Resume</button></a></span>
                 <br>
                 <span class="socials">
                 <a href="https://www.linkedin.com/in/jesse-peterson-959b2b224/" target="_blank" rel="noopener noreferrer"><img src="linkedin.png"></a>
@@ -185,7 +186,8 @@
                         <img src="languages/express.png" style="height: 37px;">
                         <img class="logo" src="languages/react.png">
                         <img src="languages/nodejs.png" style="height: 37px;">
-                        <img src="languages/js.png" style="height: 37px;">
+                        <img src="languages/redux.svg" style="height: 37px;">
+                        <img src="languages/typescript.png" style="height: 37px;">
                         <img src="languages/css.png" style="height: 37px;">
                         <img class="logo" src="languages/html.png">
                         <!-- <img class="logo2" src="languages/beautifulsoup.png"> -->
@@ -257,7 +259,8 @@
                         <img class="logo" src="languages/html.png">
                     </div>
                     <ul>
-                        <li>Designed column converter application that allows multiple independent text fields.</li>
+                        <li>Designed column converter application that converts columns of text to CSV format.</li>
+                        <li>Incorporated the option to convert from CSV to column as well, along with duplicate finder functionality.</li>
                         <li>Implemented the ability to add as many fields as necessary along with the ability to close said fields.</li>
                         <li>Included integration with my current employer's item management system for a seamless work experience. </li>
                         <li>Provided the ability to style the color of each component on the page along with some custom themes.</li>
