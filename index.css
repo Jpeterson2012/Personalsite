@@ -83,7 +83,7 @@ small{
 .container{
     margin-top: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;    
     align-content: center;
     animation: fadeIn 2s;
 }
@@ -296,6 +296,10 @@ h1{
 .top, .card h6{
     color: burlywood;
     font-weight: 900;
+    width: fit-content;
+    background: black;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card .second{
@@ -444,6 +448,20 @@ a img{
     .card{
         text-align: left;
     }
+}
+@media(min-height: 1200px){
+    .card-text{
+        font-size: 25px;
+    }
+    .top,.second{
+        font-size: 30px;
+    }
+    .card-subtitle.mb-2{
+        font-size: 29px;
+    }
+    .subText{
+        font-size: 23px;
+    }    
 }
 
 
