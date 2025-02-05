@@ -18,17 +18,21 @@
             let temp = document.getElementById("temp")
             setTimeout(()=>{
                 temp.removeAttribute("hidden")
-            },1500)
+                temp.style.animation = 'fadeIn 2s'
+            },500)
             
             // temp.style.animation = "scroll 23s alternate-reverse linear infinite"
             // temp.style.webkitAnimation = "scroll 23s alternate-reverse linear infinite"
-            temp.style.animation = "scroll 23s reverse linear"
-            temp.style.webkitAnimation = "scroll 23s reverse linear"
-
             setTimeout(()=>{
                 temp.style.animation = "scroll2 23s reverse linear infinite"
-                temp.style.webkitAnimation = "scroll2 23s reverse linear infinite"
-            },24675)
+            temp.style.webkitAnimation = "scroll2 23s reverse linear infinite"
+            },3000)
+            
+
+            // setTimeout(()=>{
+            //     temp.style.animation = "scroll2 23s reverse linear infinite"
+            //     temp.style.webkitAnimation = "scroll2 23s reverse linear infinite"
+            // },24675)
 
         })
     </script>
