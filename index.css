@@ -307,11 +307,12 @@ h1{
 .top, .card h6{
     color: burlywood;
     font-weight: 900;
-    width: fit-content;
+    width: 160px;
     background: black;
     margin-left: auto;
     margin-right: auto;
-}
+        
+}   
 
 .card .second{
     font-weight: 800;
@@ -422,7 +423,7 @@ a img{
     
 }
 @media (max-height: 500px){
-    .top,.card{
+    .top,.card h6{        
         margin-left: 0px;
         margin-right: 0px;
     }
