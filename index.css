@@ -305,13 +305,8 @@ h1{
     font-size: large;
 }
 .top, .card h6{
-    color: burlywood;
-    font-weight: 900;
-    width: 160px;
-    background: black;
-    margin-left: auto;
-    margin-right: auto;
-        
+    color: rgb(252, 223, 185);
+    font-weight: 900;            
 }   
 
 .card .second{
@@ -422,11 +417,7 @@ a img{
 
     
 }
-@media (max-height: 500px){
-    .top,.card h6{        
-        margin-left: 0px;
-        margin-right: 0px;
-    }
+@media (max-height: 500px){    
     .hero{
         height: 100%;
         overflow-y: scroll;
@@ -462,7 +453,7 @@ a img{
         margin: 0;
     }
     .card{
-        text-align: left;
+        text-align: left;        
     }
 }
 @media(min-height: 1200px){
