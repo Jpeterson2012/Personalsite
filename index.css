@@ -60,7 +60,7 @@ img{border-radius: 20px;}
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(rgb(138,72,34), black);
+    background: linear-gradient(rgb(177, 118, 9), rgb(58, 12, 12));
     border-radius: 20px;
     font-family: cursive;
     /* animation: fadeIn 2s; */
@@ -110,9 +110,17 @@ h1{
 .side-bar{
     width: 70px;
     height: 100%;
-    background: linear-gradient(rgb(138,72,34), black);
+    background: linear-gradient(to bottom, rgb(177, 118, 9), rgb(58, 12, 12));
     position: absolute;
     right: 0;
+    top: 0;
+}
+.side-bar2{
+    width: 70px;
+    height: 100%;
+    background: linear-gradient(to top, rgb(177, 118, 9), rgb(58, 12, 12));
+    position: absolute;
+    left: 0;
     top: 0;
 }
 .menu{
@@ -143,7 +151,7 @@ h1{
     -webikit-mask: linear-gradient(180deg, transparent, white 20% 80%, transparent);
     mask: linear-gradient(180deg, transparent, white 20% 80%, transparent);
 }
-.temp{
+.temp,.temp2{
     display: flex;
     flex-direction: column;
     width: max-content; 
@@ -305,8 +313,12 @@ h1{
     font-size: large;
 }
 .top, .card h6{
-    color: rgb(252, 223, 185);
-    font-weight: 900;            
+    color: burlywood;
+    font-weight: 900;  
+    background: black;
+    width: fit-content;          
+    margin-left: auto;
+    margin-right: auto;
 }   
 
 .card .second{
@@ -347,7 +359,12 @@ a img{
     cursor: pointer;
 }
 @media (max-width: 800px){
-    
+    .side-bar2{
+        display: none;
+    }
+    .top, .card h6{
+        margin: 0px;
+    }
     
     .container{
         display: flex;
@@ -444,7 +461,7 @@ a img{
         align-items: center;
         gap: 10px;
         overflow-y: scroll;
-    }
+    }    
     .menu{
         margin: 0;
         margin-top: 10px;
@@ -454,7 +471,7 @@ a img{
     }
     .card{
         text-align: left;        
-    }
+    }    
 }
 @media(min-height: 1200px){
     .card-text{
@@ -469,6 +486,10 @@ a img{
     .subText{
         font-size: 23px;
     }    
+    .social-links{
+        top: 50%;
+        max-height: 95%;;
+    }
 }
 
 

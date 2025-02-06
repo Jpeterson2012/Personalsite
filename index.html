@@ -16,9 +16,12 @@
     <script>
         window.addEventListener("DOMContentLoaded", (event) => {
             let temp = document.getElementById("temp")
+            let temp2 = document.getElementById("temp2")
             setTimeout(()=>{
                 temp.removeAttribute("hidden")
                 temp.style.animation = 'fadeIn 2s'
+                temp2.removeAttribute("hidden")
+                temp2.style.animation = 'fadeIn 2s'
             },500)
             
             // temp.style.animation = "scroll 23s alternate-reverse linear infinite"
@@ -26,7 +29,10 @@
             setTimeout(()=>{
                 temp.style.animation = "scroll2 23s reverse linear infinite"
             temp.style.webkitAnimation = "scroll2 23s reverse linear infinite"
-            },3000)
+            temp2.style.animation = "scroll2 23s linear infinite"
+            temp2.style.webkitAnimation = "scroll2 23s linear infinite"
+            },2500)
+            
             
 
             // setTimeout(()=>{
@@ -138,6 +144,56 @@
                 <a href="mailto:jesse@jmpeterson.dev"><img src="email.png"></a>
             </div>
         </div>
+
+        <div class="side-bar2">            
+            <div class="social-links">
+                <div hidden class="temp2" id="temp2">
+                <img src="languages/python.png">
+                <img src="languages/pandas2.png" style="height: 38px; width: auto;">
+                <!-- <img src="languages/numpy.svg" style="margin: 0px;"> -->
+                <img src="languages/c++.png">
+                <img src="languages/java.png" style="width: 57px; height: 50px">
+                <img src="languages/typescript.png">
+                <img src="languages/js.png" style="height: 37px;">
+                <img src="languages/R.png">
+                <img src="languages/springboot.png">
+                <img src="languages/angular.png">
+                <img src="languages/react.png">
+                <img src="languages/redux.svg" style="height: 37px;">
+                <img src="languages/nodejs.png" style="height: 37px;">
+                <img src="languages/express.png" style="height: 37px;">
+                <img src="languages/mysqllogo.png" style="width: 65px; height: 40px">
+                <img src="languages/bootstrap.png">
+                <img src="languages/css.png" style="width: 65px">
+                <img src="languages/html.png">
+                <div class="docker"><img src="languages/docker.png"></div>
+
+                <img src="languages/python.png">
+                <img src="languages/pandas2.png" style="height: 38px; width: auto;">
+                <!-- <img src="languages/numpy.svg" style="margin: 0px;"> -->
+                <img src="languages/c++.png">
+                <img src="languages/java.png" style="width: 57px; height: 50px">
+                <img src="languages/typescript.png">
+                <img src="languages/js.png" style="height: 37px;">
+                <img src="languages/R.png">
+                <img src="languages/springboot.png">
+                <img src="languages/angular.png">
+                <img src="languages/react.png">
+                <img src="languages/redux.svg" style="height: 37px;">
+                <img src="languages/nodejs.png" style="height: 37px;">
+                <img src="languages/express.png" style="height: 37px;">
+                <img src="languages/mysqllogo.png" style="width: 65px; height: 40px">
+                <img src="languages/bootstrap.png">
+                <img src="languages/css.png" style="width: 65px">
+                <img src="languages/html.png">
+                <div class="docker"><img src="languages/docker.png"></div>
+                </div>
+                
+            </div>            
+        </div>
+        
+
+
 
         <div class="leaves">
             <img src="redleaf.png">
