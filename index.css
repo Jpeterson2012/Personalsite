@@ -60,7 +60,7 @@ img{border-radius: 20px;}
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(rgb(177, 118, 9), rgb(58, 12, 12));
+    background: linear-gradient(to left, rgb(177, 118, 9), rgb(58, 12, 12));
     border-radius: 20px;
     font-family: cursive;
     /* animation: fadeIn 2s; */
